@@ -1,0 +1,26 @@
+header {
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    color: blueviolet;
+    margin-bottom: 15px;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: center;
+    color: blueviolet;
+  }
+  ul {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    li {
+      font-size: 20px;
+      color: blueviolet;
+      font-weight: bolder;
+      border-bottom: 3px solid blue;
+    }
+  }
+}

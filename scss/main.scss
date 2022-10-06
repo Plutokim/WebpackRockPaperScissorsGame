@@ -1,0 +1,58 @@
+main {
+  text-align: center;
+  .container-score {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+    h4,
+    p {
+      font-weight: bold;
+      font-size: 40px;
+      margin: 20px;
+      color: blue;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  .btn-filed {
+    margin: 20px 0;
+    text-align: center;
+    button {
+      display: inline-block;
+      background: lightyellow;
+      color: blue;
+      border: 0;
+      border-radius: 5px;
+      font-size: 25px;
+      cursor: pointer;
+    }
+    .paper {
+      margin: 0 20px;
+    }
+  }
+  .reset {
+    background: lightyellow;
+    color: red;
+    border: 0;
+    font-size: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .winner-field {
+    margin-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+  }
+  .game-field {
+    margin-top: 20px;
+    p {
+      font-weight: bolder;
+      font-size: 30px;
+      color: blueviolet;
+      margin: 5px 0;
+    }
+  }
+}
